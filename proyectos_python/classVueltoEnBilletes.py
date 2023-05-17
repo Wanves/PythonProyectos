@@ -21,14 +21,17 @@ class Contadora:
         self.monto = self.monto % 5
         cant_2 =  self.monto // 2
         self.monto = self.monto % 2
-
-        print(f'La cantidad de billetes de 100: {cant_100}')
-        print(f'La cantidad de billetes de 50: {cant_50}')
-        print(f'La cantidad de billetes de 20: {cant_20}')
-        print(f'La cantidad de billetes de 10: {cant_10}')
-        print(f'La cantidad de billetes de 5: {cant_5}')
-        print(f'La cantidad de billetes de 2: {cant_2}')
-        print(f'La cantidad de billetes de 1: {self.monto}')
+        
+        print(f"""
+            La cantidad de billetes que necesitas para abonar el monto es:
+            billetes de 100: {cant_100}
+            billetes de 50: {cant_50}
+            billetes de 20: {cant_20}
+            billetes de 10: {cant_10}
+            billetes de 5: {cant_5}
+            billetes de 2: {cant_2}
+            billetes de 1: {self.monto}   
+              """)
         print(" ")
 
 
